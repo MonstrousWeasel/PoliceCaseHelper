@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using PoliceCaseHelper.Data;
+using PoliceCaseHelper.Areas.Data;
+using PoliceCaseHelper.Areas.Identity.Data;
 //using WebMVCauth.Data;
 
 var builder = WebApplication.CreateBuilder(args);
